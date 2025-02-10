@@ -1,0 +1,44 @@
+.formRegister {
+    width: 50%;
+    border-radius: 8px;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .formRegister {
+        grid-template-areas: 
+            "a a b b"
+            "c c c c"
+            "d d d d"
+            "e e e e"
+            "f f f f";
+        width: 80%;
+        height: fit-content;
+    }
+    
+    .formRegister > :nth-child(1) { grid-area: a; }
+    .formRegister > :nth-child(2) { grid-area: b; }
+    .formRegister > :nth-child(3) { grid-area: c; }
+    .formRegister > :nth-child(4) { grid-area: d; }
+    .formRegister > :nth-child(5) { grid-area: e; }
+    .formRegister > :nth-child(6) { grid-area: f; }
+}
+
+@media screen and (min-width: 1200px) {
+    .formRegister {
+        width: 70%;
+        height: fit-content;
+
+        grid-template-areas: 
+            "a a b b"
+            "c c c c"
+            "d d d d"
+            "e e e e"
+            "f f f f";
+        gap: 25px;
+    }
+}

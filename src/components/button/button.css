@@ -1,0 +1,26 @@
+.button__Properties {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ffcc00;
+    color: #1e3c72;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s;
+}
+
+.button__Properties:hover {
+    background: #ffaa00;
+    transform: scale(1.1);
+}
+
+.button__Properties:active {
+    transform: scale(0.9);
+}
+.SignUp{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+
+}

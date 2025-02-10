@@ -1,0 +1,40 @@
+.container__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    background-color: #1E3A8A; 
+    width: 100%;
+    height: 100dvh;
+    font-family: sans-serif;
+
+
+}
+.section__formInput{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h3{
+    color: #00e;
+    font-family: Arial, sans-serif;
+}
+@media screen and (min-width:800px) {
+    .container__form{
+        background-color: #48e; 
+        width: 30%;
+        height: min-content;
+        filter: drop-shadow(2px 2px 20px #0cf);
+        border-radius: 10px;    
+    }
+    .section__formInput{
+        background-color: #bbb;
+        min-height: fit-content;
+    }
+    .h3{
+        color: #eee;
+    }
+}
